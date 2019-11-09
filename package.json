@@ -1,0 +1,14 @@
+{
+  "name": "TwitterBot",
+  "version": "1.0.0",
+  "description": "Auto retweet on hashtag",
+  "main": "index.js",
+  "author": "atmon3r",
+  "dependencies": {
+    "twit": "latest",
+    "cron": "latest"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
