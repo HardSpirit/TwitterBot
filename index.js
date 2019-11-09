@@ -18,8 +18,8 @@ var retweet = function () {
     Twitter.get('search/tweets', params, function (err, data) {
         if (!err) {
 				
-			for (let pas = 0; pas < 15; pas++) {
-				// Start retweet
+	    for (let pas = 0; pas < 15; pas++) {
+		// Start retweet
                 var retweetId = data.statuses[pas].id_str;
 
                 Twitter.post('statuses/retweet/:id', {
@@ -31,7 +31,7 @@ var retweet = function () {
                         console.log('Retweeted =)');
                     }
                 }); // End retweet
-			}
+	    }
         }
         else {
             console.log('Error during tweet search call');
