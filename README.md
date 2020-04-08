@@ -1,6 +1,6 @@
 # TwitterBot
 This simple bot retweet one hashtag every minute! 
-Used forever to launch in daemon
+Used [forever](https://www.npmjs.com/package/forever) to launch in daemon 
 
 ## Require
 NodeJs  
